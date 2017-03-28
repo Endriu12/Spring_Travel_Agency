@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="route_01" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="1"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Ukraine"/>
+        <property name="days" value="2"/>
+        <property name="hotel" value="FOURSTAR"/>
+        <property name="price" value="4000"/>
+    </bean>
+
+    <bean id="route_02" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="2"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="USA"/>
+        <property name="days" value="14"/>
+        <property name="hotel" value="SEVENSTAR"/>
+        <property name="price" value="14000"/>
+    </bean>
+
+    <bean id="route_03" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="3"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="FloRida"/>
+        <property name="days" value="22"/>
+        <property name="hotel" value="FIVESTAR"/>
+        <property name="price" value="40000"/>
+    </bean>
+
+    <bean id="route_04" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="4"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Poland"/>
+        <property name="days" value="7"/>
+        <property name="hotel" value="THREESTAR"/>
+        <property name="price" value="8000"/>
+    </bean>
+
+    <bean id="route_05" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="5"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Germany"/>
+        <property name="days" value="9"/>
+        <property name="hotel" value="FIVESTAR"/>
+        <property name="price" value="18000"/>
+    </bean>
+
+    <bean id="route_06" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="6"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Kiev"/>
+        <property name="days" value="10"/>
+        <property name="hotel" value="FIVESTAR"/>
+        <property name="price" value="8000"/>
+    </bean>
+
+    <bean id="route_07" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="7"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Canada"/>
+        <property name="days" value="2"/>
+        <property name="hotel" value="THREESTAR"/>
+        <property name="price" value="3000"/>
+    </bean>
+
+    <bean id="route_08" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="8"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Germany"/>
+        <property name="days" value="12"/>
+        <property name="hotel" value="FIVESTAR"/>
+        <property name="price" value="20000"/>
+    </bean>
+
+    <bean id="route_09" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="9"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Poland"/>
+        <property name="days" value="5"/>
+        <property name="hotel" value="FIVESTAR"/>
+        <property name="price" value="5000"/>
+    </bean>
+
+    <bean id="route_10" class="com.perepelitsya.model.route.Route">
+        <property name="route_id" value="10"/>
+        <property name="climate" value="subtropical"/>
+        <property name="country" value="Africa"/>
+        <property name="days" value="20"/>
+        <property name="hotel" value="FOURSTAR"/>
+        <property name="price" value="50000"/>
+    </bean>
+
+</beans>

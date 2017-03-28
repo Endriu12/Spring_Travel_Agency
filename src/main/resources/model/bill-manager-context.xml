@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="bill-context.xml" />
+
+    <bean id="BillsManager" class="com.perepelitsya.model.BillsManager" >
+
+        <property name="bills">
+            <list>
+                <ref bean="bill_01"/>
+                <ref bean="bill_02"/>
+                <ref bean="bill_03"/>
+                <ref bean="bill_04"/>
+                <ref bean="bill_05"/>
+                <ref bean="bill_06"/>
+                <ref bean="bill_07"/>
+                <ref bean="bill_08"/>
+                <ref bean="bill_09"/>
+                <ref bean="bill_10"/>
+            </list>
+        </property>
+    </bean>
+</beans>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="customer_01" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="1"/>
+        <property name="address" value="Fedkovicha 23_A"/>
+        <property name="firstname" value="Andriu"/>
+        <property name="lastname" value="Perepelitsya"/>
+        <property name="mobilePhone" value="0942385441"/>
+    </bean>
+
+    <bean id="customer_02" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="2"/>
+        <property name="address" value="Fedkovicha 3_A"/>
+        <property name="firstname" value="Andriu"/>
+        <property name="lastname" value="Dmutruk"/>
+        <property name="mobilePhone" value="0941215441"/>
+    </bean>
+
+    <bean id="customer_03" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="3"/>
+        <property name="address" value="Komarova 3"/>
+        <property name="firstname" value="Vasya"/>
+        <property name="lastname" value="Antupchuk"/>
+        <property name="mobilePhone" value="0942000444"/>
+    </bean>
+
+    <bean id="customer_04" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="4"/>
+        <property name="address" value="Golovna 122"/>
+        <property name="firstname" value="Ivan"/>
+        <property name="lastname" value="Ovdienko"/>
+        <property name="mobilePhone" value="0966685441"/>
+    </bean>
+
+    <bean id="customer_05" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="5"/>
+        <property name="address" value="Golovna"/>
+        <property name="firstname" value="Misha"/>
+        <property name="lastname" value="Mishovuch"/>
+        <property name="mobilePhone" value="09123385441"/>
+    </bean>
+
+    <bean id="customer_06" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="6"/>
+        <property name="address" value="Franka"/>
+        <property name="firstname" value="Misha"/>
+        <property name="lastname" value="Strenadko"/>
+        <property name="mobilePhone" value="0981243100"/>
+    </bean>
+
+    <bean id="customer_07" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="7"/>
+        <property name="address" value="Golovna"/>
+        <property name="firstname" value="Taras"/>
+        <property name="lastname" value="Terechenko"/>
+        <property name="mobilePhone" value="0503495002"/>
+    </bean>
+
+    <bean id="customer_08" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="8"/>
+        <property name="address" value="Fedkovicha"/>
+        <property name="firstname" value="Tolik"/>
+        <property name="lastname" value="Parahenko"/>
+        <property name="mobilePhone" value="0931253483"/>
+    </bean>
+
+    <bean id="customer_09" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="9"/>
+        <property name="address" value="Golovna 22"/>
+        <property name="firstname" value="Andriu"/>
+        <property name="lastname" value="Gnatushun"/>
+        <property name="mobilePhone" value="0679524885"/>
+    </bean>
+
+    <bean id="customer_10" class="com.perepelitsya.model.customers.Customer">
+        <property name="customer_id" value="10"/>
+        <property name="address" value="Komarova"/>
+        <property name="firstname" value="Stas"/>
+        <property name="lastname" value="Kotov"/>
+        <property name="mobilePhone" value="0956547830"/>
+    </bean>
+
+</beans>

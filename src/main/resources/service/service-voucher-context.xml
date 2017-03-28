@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="../dao/dao-voucher-context.xml"/>
+    <bean id="service-voucher" class="com.perepelitsya.service.voucher.impl.VoucherServiceImpl">
+        <constructor-arg>
+            <ref bean="dao-voucher"/>
+        </constructor-arg>
+    </bean>
+</beans>

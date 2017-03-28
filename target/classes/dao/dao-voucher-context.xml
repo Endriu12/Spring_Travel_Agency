@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="../model/voucher-context.xml"/>
+    <bean id="dao-voucher" class="com.perepelitsya.dao.voucher.impl.DaoVoucherImpl">
+        <constructor-arg>
+            <list>
+                <ref bean="voucher_01"/>
+                <ref bean="voucher_02"/>
+                <ref bean="voucher_03"/>
+                <ref bean="voucher_04"/>
+                <ref bean="voucher_05"/>
+                <ref bean="voucher_06"/>
+                <ref bean="voucher_07"/>
+                <ref bean="voucher_08"/>
+                <ref bean="voucher_09"/>
+                <ref bean="voucher_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

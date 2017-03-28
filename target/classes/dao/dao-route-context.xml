@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="../model/route-context.xml"/>
+    <bean id="dao-route" class="com.perepelitsya.dao.route.impl.DaoRouteImpl">
+        <constructor-arg>
+            <list>
+                <ref bean="route_01"/>
+                <ref bean="route_02"/>
+                <ref bean="route_03"/>
+                <ref bean="route_04"/>
+                <ref bean="route_05"/>
+                <ref bean="route_06"/>
+                <ref bean="route_07"/>
+                <ref bean="route_08"/>
+                <ref bean="route_09"/>
+                <ref bean="route_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

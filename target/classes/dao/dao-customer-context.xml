@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="../model/customer-context.xml"/>
+    <bean id="dao-customer" class="com.perepelitsya.dao.customer.impl.DaoCustomerImpl">
+        <constructor-arg>
+            <list>
+                <ref bean="customer_01"/>
+                <ref bean="customer_02"/>
+                <ref bean="customer_03"/>
+                <ref bean="customer_04"/>
+                <ref bean="customer_05"/>
+                <ref bean="customer_06"/>
+                <ref bean="customer_07"/>
+                <ref bean="customer_08"/>
+                <ref bean="customer_09"/>
+                <ref bean="customer_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

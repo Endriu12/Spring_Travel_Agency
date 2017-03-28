@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="customer-context.xml"/>
+    <import resource="route-context.xml"/>
+    <import resource="voucher-context.xml"/>
+
+
+    <bean id="bill_01" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="1" />
+        <property name="voucher" ref="voucher_01" />
+        <property name="customer" ref="customer_01"/>
+        <property name="route" ref="route_01" />
+    </bean>
+
+    <bean id="bill_02" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="2" />
+        <property name="voucher" ref="voucher_02" />
+        <property name="customer" ref="customer_02"/>
+        <property name="route" ref="route_02" />
+    </bean>
+
+    <bean id="bill_03" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="3" />
+        <property name="voucher" ref="voucher_03" />
+        <property name="customer" ref="customer_03"/>
+        <property name="route" ref="route_03" />
+    </bean>
+
+    <bean id="bill_04" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="4" />
+        <property name="voucher" ref="voucher_04" />
+        <property name="customer" ref="customer_04"/>
+        <property name="route" ref="route_04" />
+    </bean>
+
+    <bean id="bill_05" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="5" />
+        <property name="voucher" ref="voucher_05" />
+        <property name="customer" ref="customer_05"/>
+        <property name="route" ref="route_05" />
+    </bean>
+
+    <bean id="bill_06" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="6" />
+        <property name="voucher" ref="voucher_06" />
+        <property name="customer" ref="customer_06"/>
+        <property name="route" ref="route_06" />
+    </bean>
+
+    <bean id="bill_07" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="7" />
+        <property name="voucher" ref="voucher_07" />
+        <property name="customer" ref="customer_07"/>
+        <property name="route" ref="route_07" />
+    </bean>
+
+    <bean id="bill_08" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="8" />
+        <property name="voucher" ref="voucher_08" />
+        <property name="customer" ref="customer_08"/>
+        <property name="route" ref="route_08" />
+    </bean>
+
+    <bean id="bill_09" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="9" />
+        <property name="voucher" ref="voucher_09" />
+        <property name="customer" ref="customer_09"/>
+        <property name="route" ref="route_09" />
+    </bean>
+
+    <bean id="bill_10" class="com.perepelitsya.model.bill.Bill" >
+        <property name="id" value="10" />
+        <property name="voucher" ref="voucher_10" />
+        <property name="customer" ref="customer_10"/>
+        <property name="route" ref="route_10" />
+    </bean>
+
+</beans>
