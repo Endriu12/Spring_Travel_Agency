@@ -9,9 +9,22 @@ import java.util.List;
  */
 public interface IRouteService {
     List<Route> getAll();
+
     Route getRoute(int id);
+
     void createRoute(Route route);
-    void updateRoute(Route  route);
+
+    void updateRoute(Route route);
+
     void deleteRoute(int id);
+
     void showAll();
+
+    int getSizeOfList();
+
+    int getCustomerIdWhoLiveInSeventStarHotel();
+
+    void getRouteWhoWillBeIn(String country);
+
+    int getAllCustomerPriceWhoLiveFIVESTAR();
 }

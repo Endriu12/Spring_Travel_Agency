@@ -30,7 +30,6 @@ public class BillServiceImpl implements IBillService {
 
     public List<Bill> getAll() {
         return iDaoBill.getAll();
-
     }
 
     public Bill getBill(int id) {

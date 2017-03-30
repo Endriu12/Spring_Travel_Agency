@@ -14,4 +14,8 @@ public interface ICustomerService {
     void updateCustomer(Customer customer);
     void deleteCustomer(int id);
     void showAll();
+    void getCustomerIdWhoHaveMobilePhone(String mobilePhone);
+    int getSizeOfListCustomer();
+    List<String> getAllMobilePhoneCustomer();
+    void getAddressOfCustomerWhoLastnameIs(String lastname);
 }

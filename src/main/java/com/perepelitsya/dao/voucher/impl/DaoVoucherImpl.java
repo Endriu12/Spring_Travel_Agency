@@ -64,7 +64,6 @@ public class DaoVoucherImpl implements IDaoVoucher {
     }
 
     public void deleteVoucher(int id) {
-
         boolean a = false;
         a = voucherList.removeIf(voucher -> voucher.getId() == id);
         if (a == true) {

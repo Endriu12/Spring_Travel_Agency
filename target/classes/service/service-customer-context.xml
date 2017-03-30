@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <import resource="../dao/dao-customer-context.xml"/>
-    <bean id="service-custoer" class="com.perepelitsya.service.customer.impl.CustomerServiceImpl">
+    <bean id="service-customer" class="com.perepelitsya.service.customer.impl.CustomerServiceImpl">
         <constructor-arg>
             <ref bean="dao-customer"/>
         </constructor-arg>

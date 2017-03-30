@@ -25,5 +25,7 @@ public interface IVoucherService {
     void getAllVoucherWhoIsEnable(String date);
 
     int getSumOfAllDiscount();
+
+    int getSumOfAllVoucherPeopleWhoWasToday();
 }
 

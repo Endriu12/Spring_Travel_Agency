@@ -80,4 +80,13 @@ public class VoucherServiceImpl implements IVoucherService {
         }
         return sum;
     }
+
+    @Override
+    public int getSumOfAllVoucherPeopleWhoWasToday() {
+        int sum = 0;
+        for(Voucher voucher : iDaoVoucher.getAll()){
+            sum+=voucher.getNumber();
+        }
+        return  sum;
+    }
 }
